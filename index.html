@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmisson Foam</title>
+</head>
+
+<body style="background-color:rgb(194, 176, 230);">
+
+    <form>
+
+        <head>
+            <center><b> PG College Addmisson Form </b></center>
+        </head><br><br>
+        <p><b>Fill the all details correctly:-</b></p>
+        <fieldset>
+            <legend>Student Details:</legend>
+
+            FIRST NAME&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="fname"
+                placeholder="Firstname">(max 30 character type Atoz)<br>
+            <br> LAST NAME&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="lname"
+                placeholder="lastname">(max 30 charactertype Atoz)<br>
+            <br> DATE OF BIRTH&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="date" name="birthday">
+            <br>
+            <br>EMAIL ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="Email" name="id"><br>
+            <br>MOBILE NO&nbsp&nbsp&nbsp&nbsp&nbsp<input type="mobile" name="no" maxlength="10">(10 digit number)<br>
+            <br>Gender&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio"
+                name="gender" value="male"> Male
+            <input type="radio" name="gender" value="Female">female <br>
+            <br> Address&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<textarea name="Address"
+                row="10" coloum="30"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address Details</legend>
+            <label for="PerAdd">Permanent Address:-</label>&nbsp&nbsp
+            <textarea id="perAdd" name="permanent Address" cols="50" rows="3"></textarea>
+            <br><br>Area&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Area">
+            <br><br>Pincode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="pincode">
+        </fieldset>
+        <fieldset>
+            <legend>Educational Details</legend>
+            <table border="3px">
+
+                <tr>
+                    <th>Class</th>
+                    <th>School name</th>
+                    <th>Subject</th>
+                    <th>Passing Year</th>
+                    <th>Percentage</th>
+
+                </tr>
+                <tr>
+                    <td><select name="Class">
+                            <option>10th</option>
+                            <option>12th</option>
+                            <option>graduations</option>
+                        </select>
+                    </td>
+
+                    <td><input type="text" name="School name"></td>
+                    <td><input type="text" name="Subject"></td>
+                    <td><input type="number" name="passing year"></td>
+                    <td><input type="number" name="Percentage"></td>
+
+                </tr>
+
+
+
+                <tr>
+                    <td><select name="Class">
+                            <option>10th</option>
+                            <option>12th</option>
+                            <option>graduation</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="School name"></td>
+                    <td><input type="text" name="Subject"></td>
+                    <td><input type="number" name="Passing year"></td>
+                    <td><input type="number" name="Percentage"></td>
+                </tr>
+
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <b>Favourite Sports:-</b><br>
+
+            Cricket&nbsp&nbsp<input type="Checkbox" name="Cricket">
+            badmintton&nbsp&nbsp<input type="Checkbox" name="badmintton">
+            Hockey&nbsp&nbsp<input type="checkbox" name="Hockey">
+            Football&nbsp&nbsp<input type="Checkbox" Name="Football">
+            <br><br>
+            <b>Favourite colour:-</b>
+            <input type="color" name="favcolor" value="#ff0000">&nbsp&nbsp
+            <b>select Files:-</b><input type="file" name="images" multiple>
+            <p><a href="mailto:amritaojha914@gamil.com">Send Email</a></p>
+
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+    </form>
+</body>
+
+</html>
